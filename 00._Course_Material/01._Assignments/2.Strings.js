@@ -39,10 +39,14 @@ console.log(dasAverage.toFixed(5));
 // Exercise 6 - Get the character by index
 
 const letters = "abc";
+
+// const charC = letters[2];
+// const charC = letters.charAt(2);
+const charC = letters.substring(2,3);
+
 // Get me the character "c"
-console.log(letters.charAt(2));
 
-
+console.log(charC);
 
 // --------------------------------------
 // Exercise 7 - Replace
